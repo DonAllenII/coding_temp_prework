@@ -1,8 +1,12 @@
+#Question 1
+#Write a function to print "hello_USERNAME" USERNAME is the input of the function.
 def hello_name(USERNAME):
     print ("hello_" + str(USERNAME) + "!")
     return
 
-
+#Question 2
+#Write a python function, first_odds that prints the odd numbers from 1-100
+#and returns nothing.
 def first_odds():
     for value in range(1,101):
         if value % 2 == 1:
@@ -11,6 +15,8 @@ def first_odds():
 
 #first_odds()
 
+#Question 3
+#Write a Python function, max_num_in_list to return the max number of a given list.
 def max_num_in_list(a_list):
     #print (max(a_list))
     return max(a_list)
@@ -21,6 +27,8 @@ def max_num_in_list(a_list):
 #max_num_in_list([2,484,538,82])
 #max_num_in_list([43,85,93,188,652])
 
+#Question 4
+#Write a function to return if the given year is a leap year.
 def is_leap_year(a_year):
     if a_year % 4 == 0:
         if a_year % 100 > 0:
@@ -40,6 +48,8 @@ def is_leap_year(a_year):
 #is_leap_year(2199)
 #is_leap_year(7257)
 
+#Question 5
+#Write a function to check to see if all numbers in list are consecutive numbers.
 def is_consecutive(a_list):
     consec = True #set bool to auto True
     check_num = a_list[0] #est a comp num
